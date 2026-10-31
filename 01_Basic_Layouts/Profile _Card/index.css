@@ -1,1 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 
+    width: 90%;
+    max-width:600px;
+    padding: 20px;
+
+    border-radius: 30px;
+    background-color: rgb(3, 54, 84);
+}
+
+
+.image img
+{
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+   
+}
+.Info 
+{
+    padding: 5px;
+    font-size:17px;
+    color: rgba(246, 221, 221, 0.518);
+}
+.Info strong
+{
+    font-size: 40px;
+}
+.Info b
+{
+    font-size: 25px;
+}
+
+button
+{
+    width: 150px;
+    min-width: 100px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(4, 32, 66);
+    color: rgb(245, 245, 242);
+    border-radius: 30px;
+}
