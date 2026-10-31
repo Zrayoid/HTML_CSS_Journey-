@@ -1,29 +1,28 @@
 # HTML & CSS Journey
 
-This repository contains my HTML and CSS practice projects as I learn frontend web development.
+A collection of my HTML and CSS practice projects as I learn frontend development.
 
-## Purpose
+## Goals
 
-- Improve my HTML and CSS skills.
-- Practise building real-world layouts.
-- Learn Flexbox, CSS Grid, and Responsive Design.
-- Track my progress through practical projects.
+- Strengthen my HTML and CSS skills.
+- Build practical website components and layouts.
+- Improve my understanding of Flexbox, CSS Grid, and responsive design.
+- Learn by building, experimenting, and fixing mistakes.
 
-## Project Structure
+## Projects
 
-| Folder | Description |
+### Basic Layouts
+
+| Project | Description |
 |---|---|
-| `01_Basic_Layouts` | Basic page layouts and components |
-| `02_Flexbox` | Layouts built using Flexbox |
-| `03_CSS_Grid` | Practice with CSS Grid |
-| `04_Responsive_Design` | Responsive layouts |
-| `05_Website_Sections` | Individual website sections |
-| `06_Combined_Projects` | Projects combining multiple concepts |
+| Profile Card | Practising card layouts, alignment, and spacing |
+| Product Card | Practising layout structure and styling |
+| Navigation Bar | Practising navigation layouts using Flexbox |
 
 ## Current Focus
 
-Learning CSS layout techniques and building practical website components.
+**CSS Flexbox** — improving my layout skills by building practical website components.
 
-## Note
+## About This Repository
 
-This is a learning repository. Projects may contain experiments, mistakes, and improvements as I progress.
+This is a practice repository documenting my learning process. Projects may include experiments, unfinished work, and improvements as I progress.
