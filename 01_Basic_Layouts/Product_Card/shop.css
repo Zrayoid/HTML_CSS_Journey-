@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin-top: 3rem;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.Heading{
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.Heading #MainHeading
+{
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+.container strong
+{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.container span,
+.container s
+{
+    font-size: 10px;
+    font-weight: 300;
+}
+.container .info{
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+}
+.container .off
+{
+    color: rgba(233, 10, 10, 0.886);
+}
+
+.box1,
+.box2,
+.box3
+{
+    padding: 1.5rem;
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box1 img,
+.box2 img,
+.box3 img
+{
+    aspect-ratio: 3/2;
+    width: 100%;
+    object-fit: cover;
+}
+
+.button
+{
+   font-size: 1rem;
+   width: 200px;
+   height: 50px;
+   min-height:15px;
+   min-width: 100px;
+   border-radius: 1.5rem;
+   transition: background 0.2s ease,  transform 0.2s ease;
+}
+
+.button:hover{
+    color: white;
+    background-color: rgb(3, 66, 97);
+}
+.button:active{
+    transform: translateY(0.5rem);
+}
