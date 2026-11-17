@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.LandingPage{
+    display: grid;
+    grid-template-rows:1fr;
+    background-color: #0F172A
+}
+
+/* Navigation Styling */
+.navigationMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 10px;
+    background-color: #1E293B
+}
+
+.navigationMenu .NavButtons{
+    width: 90%;
+}
+
+.navigationMenu .NavButtons  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+.navigationMenu .NavButtons  ul li a{
+    text-decoration: none;
+    color: #F8FAFC;
+    font-size: clamp(1rem, 1vw + 1rem, 3rem);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.navigationMenu .logo
+{
+    color: #38BDF8;
+    font-size: clamp(1rem, 1vw + 1rem, 3rem);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* Hero Section Styling */
+.hero{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 20px;
+    background-color: #0F172A
+}
+
+.heroText {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+.heroText .heroHeader .Header{
+    color: #F8FAFC;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.heroText .heroHeader .SupportHeader{
+    color:#38BDF8;
+}
+
+.heroText .heroHeader {
+    font-family: 'Arial', sans-serif;
+    font-size: clamp(1.5rem, 2vw + 2rem, 10rem);
+}
+
+.heroText .supportTexts{
+    font-family: 'inter', sans-serif;
+    font-size: clamp(1rem, 1vw + 0.5rem, 4rem);
+    color: #94A3B8;
+    font-weight: 500;
+}
+
+.Image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.Image .ProductImage{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+}
+
+/* hero section buttons */
+.hero .heroButtons .Trial{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #38BDF8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #0F172A;
+}
+
+.hero .heroButtons .Learn{
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #0F172A;
+}
+
+/* FEATURE HEADER */
+.featureHeader{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+}
+
+.featureHeader .title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+
+}
+
+.featurHeader .heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Feature cards */
+
+.FeatureCards{
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.FeatureCards .feature1,
+.FeatureCards .feature2,
+.FeatureCards .feature3
+{
+    background-color: #1E293B;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.FeatureCards h4{
+    color: #F8FAFC;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.FeatureCards p{
+    color: 	#94A3B8;
+    font-size: 0.95rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+
+/* CTA */
+.CTA{
+    margin: 30px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1D4ED8;
+    border-radius: 20px;
+}
+
+.CTA .CTAbutton{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #38BDF8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #0F172A;
+}
+
+.CTAheading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.CTAsupporttext{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+
+/* Review header */
+
+.reviewHeader{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviewHeader .title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+
+}
+
+.reviewHeader .heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* ReviewCards */
+.ReviewCards{
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    
+}
+
+/* ReiewUser content */
+
+.review1,
+.review2,
+.review3{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #1E293B;
+    border-radius: 15px;
+    
+}
+
+
+.review1 .UserInfo,
+.review2 .UserInfo,
+.review3 .UserInfo{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+
+}
+
+.review1 .ReviewTexts,
+.review2 .ReviewTexts,
+.review3 .ReviewTexts{
+    margin: 10px;
+}
+
+
+
+/* User Images(logo) */
+
+.review1 .UserInfo .userimage,
+.review2 .UserInfo .userimage,
+.review3 .UserInfo .userimage{
+    width: 150px;
+}
+
+.review1 .UserInfo .UserImage,
+.review2 .UserInfo .UserImage,
+.review3 .UserInfo .UserImage{
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 2/2;
+    border-radius: 50%;
+
+}
+
+
+
+/* Review Content */
+.review1 .ReviewTexts h3,
+.review2 .ReviewTexts h3,
+.review3 .ReviewTexts h3{
+    font-size: clamp( 1rem, 1.5rem + 1vw, 2rem);
+    font-family: 'Poppins', sans-serif;
+    margin: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.review1 .ReviewTexts h4,
+.review2 .ReviewTexts h4,
+.review3 .ReviewTexts h4{
+    font-size: clamp(0.5rem, 0.6rem + 1vw, 1.5rem);
+    margin: 1px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.review1 .ReviewTexts p,
+.review2 .ReviewTexts p,
+.review3 .ReviewTexts p{
+    font-size: clamp(0.5rem, 1rem, 1.5rem);
+    color: #94A3B8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.ReviewImage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Footer  */
+
+.footer{
+    background-color: #0B1120;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 30px;
+}
+
+.footer .description{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.footer .description h3,
+.footer .Contact h3{
+    color: #F8FAFC;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.footer .description p,
+.footer .Contact p{
+    color: #94A3B8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.footer .description .Links ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    
+}
+
+.footer .description .Links ul li a{
+    text-decoration: none; 
+}
+
+.footer .Contact{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+

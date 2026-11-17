@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+    <div class="LandingPage">
+        <!-- Navigation will be use flex -->
+        <nav class="navigationMenu">
+            <div class="logo">
+                <h4>Nova</h4>
+            </div>
+            <div class="NavButtons">
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- this hero section will be grid and it's child's grid items -->
+        <section class="hero">
+            <div class="heroText">
+
+                <div class="heroHeader">
+                    <h2 class="Header">Work Smarter.</h2>
+                    <h2 class="SupportHeader">Achieve More.</h2>
+                </div>
+
+                <p class="supportTexts">NovaFlow helps you stay focused, Organise
+                    <br>your tasks and reach your goalds fater
+                </p>
+
+                <!--The parent of button div is gona be a grid child and
+                 apply flex to the same parent to make this button div a flex item  -->
+                <div class="heroButtons">
+                    <button class="Trial">Start Free Trial</button>
+                    <button class="Learn">Learn More</button>
+                </div>
+            </div>
+            <div class="Image">
+                <img src="NovaProduct.png" alt="ProductImage" class="ProductImage">
+            </div>
+        </section>
+
+        <!-- This will be managed separately of the grid and flex -->
+        <div class="featureHeader">
+            <h6 class="title"> POWERFUL FEATURES</h6>
+            <h3 class="heading">Everything you need to stay ont rack</h3>
+        </div>
+
+        <!-- they'll be grid and grid children -->
+        <section class="FeatureCards">
+            <div class="feature1">
+                <h4>Boost Productivity</h4>
+                <p>Get more done in less time with a smarter workflow.</p>
+            </div>
+            <div class="feature2">
+                <h4>Track Progress</h4>
+                <p>Monitor your goals and celebrate every milestone.</p>
+            </div>
+            <div class="feature3">
+                <h4>Stay Focused</h4>
+                <p>Avoid distractions and keep your attention on what matters.</p>
+            </div>
+        </section>
+
+        <!-- Flex will work for this -->
+        <section class="CTA">
+            <div class="CTAtext">
+                <h3 class="CTAheading">Ready to get started?</h3>
+                <p class="CTAsupporttext">Join thousands of productive users today</p>
+            </div>
+            <button class="CTAbutton">Start Free Trial</button>
+        </section>
+
+        <!-- use flex -->
+        <div class="reviewHeader">
+            <h6 class="title"> WHAT OUR USERS SAY</h6>
+            <h3 class="heading">Trusted by learners, Creators and professionals</h3>
+        </div>
+
+        <!-- Grid parent and children -->
+        <section class="ReviewCards">
+            <div class="review1">
+                <div class="UserInfo">
+                    <div class="userimage">
+                        <img src="spider1.jpg" alt="User3" class="UserImage">
+                    </div>
+                    <h3>Sarah Mitchell</h3>
+                </div>
+                <div class="ReviewTexts">
+
+                    <h4>Student & Content Creator</h4>
+                    <p>"NovaFlow has made managing my daily tasks so much easier.
+                        I can organise my work, track my progress, and stay focused
+                        without feeling overwhelmed. It's exactly what I needed!"
+                    </p>
+                </div>
+            </div>
+            <div class="review2">
+                <div class="UserInfo">
+                    <div class="userimage">
+                        <img src="spider2.jpg" alt="User3" class="UserImage">
+                    </div>
+                    <h3>James Anderson</h3>
+                </div>
+
+                <div class="ReviewTexts">
+                    <h4>Freelance Designer</h4>
+                    <p>"I used to struggle with managing multiple projects at once.
+                        NovaFlow helps me keep everything organised in one place.
+                        I especially love how simple and clean the dashboard is."
+                    </p>
+                </div>
+            </div>
+            <div class="review3">
+                <div class="UserInfo">
+                    <div class="userimage">
+                        <img src="pider3.jpg" alt="User3" class="UserImage">
+                    </div>
+                    <h3>Emily Carter</h3>
+                </div>
+
+                <div class="ReviewTexts">
+                    <h4>Marketing Professional</h4>
+                    <p>"NovaFlow has completely improved the way I plan my day.
+                        The progress tracking keeps me motivated, and the simple
+                        interface makes it enjoyable to use. Highly recommended!"</p>
+                </div>
+            </div>
+        </section>
+        s
+        <!-- use flex on footer -->
+        <footer class="footer">
+
+            <section class="description">
+                <div class="Heading"><h3>NovaFlow</h3></div>
+                <div class="Describe"><p>Work smarter. Achieve more. With NovaFlow</p></div>
+                <div class="Links">
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Github</a></li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="Contact">
+                <h3>Contact Us</h3>
+                <p>hello@novaflow.com</p>
+                <p>New Delhi, India</p>
+            </section>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
